@@ -116,6 +116,7 @@ class AdminController extends Controller {
 		} else {
 			$message = Lang::get('messages.account_not_found');
 			return response()->json(compact('message'), 400);
+			
 		}
 	}		
 }
